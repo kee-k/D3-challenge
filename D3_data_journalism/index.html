@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row" id="page_title">
+      <div class="col-xs-12 col-md-12" align="center">
+        <h1>D3Times</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="d-flex justify-content-center">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="d-flex justify-content-center">
+      <div class="col-xs-12  col-md-9" align="center">
+        <div class="article">
+          <h2>Slight Correlation Discovered between Rates of Obesity and Poverty</h2>
+          <p>An interesting discovery indeed - 2014 Census data from the United States shows a slight correlation between
+            rates of obesity and poverty. Being a country that has been known to be affected by high rates of obesity, due to an abundance
+            of fast food and poor levels of nutritional awareness, it is also interesting to consider how poverty might play into this. This is
+            because in most cases, junk food and fast food is more affordable than healthier options. For example, cola is cheaper than water, 
+            and a meal at McDonalds is cheaper than salad ingredients. Higher rates of poverty might also indicate lower access to quality
+            education regarding the importance of nutritional balance, which may again result in higher rates of obesity. Although there is 
+            much more to be taken into consideration here, the graphic above does give an initial insight into the relationship between 
+            obesity and poverty amongst U.S. citizens.
+          </p>
+          <p>
+           Looking at <a href="https://www.cdc.gov/obesity/data/prevalence-maps.html" target="_blank">more recent data from the Centers for Disease Control and Prevention</a>, it is evident that rates of obesity have only
+           increased, with the states measured as having higher rates of obesity in 2014 staying high in 2019. It is further noticeable that,
+           again consistently with the 2014 census data, states on the west coast tend to have lower rates of obesity, whereas the states with 
+           the highest rates of obesity are clustered towards the east of the country. It seems that there has not been a priority in improving the 
+           wellbeing of U.S. citizens. This will be a trend to continue watching in the future, particularly for public health authorities.
+          </p>
+
+          <object data="/assets/brfss_2019_ob_all.svg" width="792" height="612"> </object>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>The Coding Boot Camp&copy;2016</p>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
+
+</html>
